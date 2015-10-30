@@ -2,17 +2,17 @@ public class Vector3D {
 
     double x,y,z;
 
-    public double x()
+    private double x()
     {
         return x;
     } 
 
-    public double y()
+    private double y()
     {
         return y;
     }
 
-    public double z()
+    private double z()
     {
         return z;
     }
@@ -22,5 +22,16 @@ public class Vector3D {
         this.y=y;
         this.z=z;
 
+    }
+    public double getX () {
+        return x;
+    }
+    
+    public double getY () {
+        return y;
+    }
+    
+    public double getZ () {
+        return z;
     }
 }
